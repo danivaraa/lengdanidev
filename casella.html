@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="wlg.png">
+    <link rel="stylesheet" href="casella.css">    <title>Selezione</title>
+</head>
+<body>
+    <div class="container">
+        <label for="destinazione">Scegli la Lingua:</label>
+        <select id="destinazione">
+            <option value="homepage.html">italiano</option>
+            <option value="enghomepage.html">Inglese</option>
+            <option value="frchomepage.html">Francese</option>
+            <option value="tedhomepage.html">Tedesco</option>
+        </select>
+        <button id="pulsante">Vai</button>
+    </div>
+
+    <script>
+        const pulsante = document.getElementById("pulsante");
+        const destinazione = document.getElementById("destinazione");
+
+        pulsante.addEventListener("click", function() {
+            const scelta = destinazione.value;
+            if (scelta) {
+                window.location.href = scelta;
+            }
+        });
+    </script>
+</body>
+</html>

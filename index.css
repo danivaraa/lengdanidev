@@ -1,0 +1,82 @@
+/* Stile del corpo della pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Stile dell'intestazione */
+h1 {
+    color: #333;
+}
+
+/* Stile del modulo di login */
+.loginForm {
+    background-color: #ffa9a9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(197, 78, 78, 0.2);
+    width: 150px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="phonenumber"]
+{
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffcc00;
+}
+
+/* Stile della sezione di benvenuto */
+#welcome {
+    display: none;
+    margin-top: 20px;
+}
+
+/* Stile del pulsante di logout */
+button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffcc00;
+}
+
+.container {
+    background-color: #5c5959;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    width: 400;
+
+}

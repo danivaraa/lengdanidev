@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Accesso</title>
+    <link rel="icon" href="wlg.png">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>Login</title>
+</head>
+<body>
+
+
+    <h1>Accesso</h1>
+
+    <div id="loginForm">
+        <input type="text" id="username" placeholder="Nome Utente" required><br><br>
+        <input type="email" id="email" placeholder="Email" required><br><br>
+        <input type="password" id="password" placeholder="Password" required><br><br>
+        <input type="phonenumber" id="phonenumber" placeholder="Numero di Telefono" required><br><br>
+        <button onclick="checkLogin()">Login</button>
+    </div>
+
+<div id="welcome" style="display: none;">
+        <p>Grazie per aver effettuato l'accesso <span id="userSpan"></span>, Attualmente sei registrato!</p>
+        <button onclick="accesso()">Continua</button>
+    </div>
+
+
+    
+
+</body>
+</html>

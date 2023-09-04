@@ -1,0 +1,80 @@
+/* Reset CSS */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+}
+
+.welcome {
+    display: none;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+nav ul li p a:hover {
+ color: #ff0000;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: white;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #ffcc00;
+    color: #000000;
+}
+
+a {
+  color: rgb(0, 0, 0)
+}
+
+a:hover {
+    color: green;
+    font-family: Arial, sans-serif;
+}
